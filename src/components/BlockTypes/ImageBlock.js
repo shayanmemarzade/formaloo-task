@@ -30,7 +30,7 @@ const ImageBlock = ({ edit, url, onChange }) => {
         <a href='#' onClick={sample1Handler} className='mr-3'>Sample 1</a>
         <a href='#' onClick={sample2Handler} className='mr-3'>Sample 2</a>
       </>}
-      {!edit && <img src={url} alt='formaloo' className='max-w-md' />}
+      {!edit && <img src={url} alt='formaloo' className='w-full max-w-md m-auto' />}
     </div>
   )
 }
